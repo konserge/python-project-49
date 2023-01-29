@@ -2,34 +2,30 @@ import prompt
 from random import randint
 
 
-
 def welcome_user():
     name = prompt.string('May I have your name? ')
-    name = prompt.string(f"Hello, {name}!")
-    print("Answer 'yes' if the number is even, otherwise answer 'no'.")
-
-def question():
-    random_number = randint(1, 100)
-    print(f'Question: {random_number}')
-    user_answer = prompt.string('Your answer: ')
-
-def correct_answer():
-    if (user_answer == 'yes' and random_number % 2 == 0) or (user_answer == 'no' and random_number % 2 != 0):
-        return 'Correct!'
-    elif user_answer == 'yes' and random_number % 2 != 0:
-        return f"'yes' is wrong answer ;(. Correct answer was 'no'. \n Let's try again, {user_name}!"
-    elif user_answer == 'no' and random_number % 2 == 0:
-        return f"'no' is wrong answer ;(. Correct answer was 'yes'. \n Let's try again, {user_name}!"
+    print(f"Hello, {name}!")
+    return name
 
 
+def question(user_name):
+    attempts = 0
+    while attempts < 3:
+        random_number = randint(1, 100)
+        print(f'Question: {random_number}')
+        user_answer = prompt.string('Your answer: ')
 
-    start = 0
-    attempt = 3
-    random_number = randint(1, 100)
+        if random_number % 2 == 0:
+            correct_answer = 'yes'
+        else:
+            correct_answer = 'no'
 
-    while start <= attempt:
-        start += 1
+        if user_answer == correct_answer:
+            print('Correct!')
+            attempts += 1
 
-
-if __name__ == '__main__':
-    main()
+        else:
+            print(
+                f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'. \nLet's try again, {user_name}!")
+            return
+    print(f'Congratulations, {user_name}!')
