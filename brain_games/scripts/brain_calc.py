@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from brain_games.game_calc import welcome_user
 from brain_games.game_calc import question
 
