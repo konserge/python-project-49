@@ -1,6 +1,5 @@
 import prompt
 from random import randint
-from random import choice
 
 
 def welcome_user():
@@ -37,7 +36,7 @@ def get_progression(user_name):
             attempts += 1
         else:
             print(
-            f"'{user_answer}' is wrong answer ;(. Correct answer was '{right_answer}'.\nLet's try again, {user_name}!")
+                f"'{user_answer}' is wrong answer ;(. Correct answer was '{right_answer}'.\nLet's try again, {user_name}!")
             return
 
     print(f'Congratulations, {user_name}!')
