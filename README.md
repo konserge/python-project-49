@@ -1,20 +1,19 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/konserge/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/konserge/python-project-49/actions)
 
-[![brain-even](https://asciinema.org/a/QU2RqEPX3BNCxd1rVwvRZT9aG)]
-
-[![brain-calc](https://asciinema.org/a/uY19bOrwr6glunxhmbSHy4uA7)]
-
-[![brain-gcd](https://asciinema.org/a/4S7uPNTt0VtiDjH31bIEhYkIG)]
-
 [![Maintainability](https://api.codeclimate.com/v1/badges/3e257037e745a0b9fb2b/maintainability)](https://codeclimate.com/github/konserge/python-project-49/maintainability)
-
-[![brain-progression](https://asciinema.org/a/XUwP4JQDqGfZWTeYp4DcPO7ER)]
-
-[![brain-prime](https://asciinema.org/a/fM8GVQyjkhfxvmII9Ow2Tyhyj)]
 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/3e257037e745a0b9fb2b/test_coverage)](https://codeclimate.com/github/konserge/python-project-49/test_coverage)
 
+[![brain-even](https://asciinema.org/a/QaLwpsxv8nKSugqEmgPwAbs3W.svg)](https://asciinema.org/a/QaLwpsxv8nKSugqEmgPwAbs3W)
+
+[![brain-calc](https://asciinema.org/a/P3uO0PyDYVt64VYPX2DWboVwe.svg)](https://asciinema.org/a/P3uO0PyDYVt64VYPX2DWboVwe)
+
+[![brain-gcd](https://asciinema.org/a/abiC2D8y2ghrYy6kWq9a4Dx4S.svg)](https://asciinema.org/a/abiC2D8y2ghrYy6kWq9a4Dx4S)
+
+[![brain-progression](https://asciinema.org/a/XUwP4JQDqGfZWTeYp4DcPO7ER.svg)](https://asciinema.org/a/XUwP4JQDqGfZWTeYp4DcPO7ER)
+
+[![brain-prime](https://asciinema.org/a/fM8GVQyjkhfxvmII9Ow2Tyhyj.svg)](https://asciinema.org/a/fM8GVQyjkhfxvmII9Ow2Tyhyj)
 
 ### Developer
 To work with the package, you need to clone the repository.
